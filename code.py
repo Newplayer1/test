@@ -60,7 +60,7 @@ with open('data.csv', newline='') as csvfile:
         mqttc.publish('p_battery', col[7])
         mqttc.publish('p_inv', col[8])
         mqttc.publish('p_charger', col[9])
-        time.sleep(5)
+        time.sleep(2)
 
 
 
